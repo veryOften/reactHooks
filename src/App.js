@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UseInput from './utilHooks/useInput/useInput'
+import UseTab from './utilHooks/useTab/useTab'
+import UseTitle from './utilHooks/useTitle/useTitle'
+import UseClick from './utilHooks/useClick/useClick'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UseInput/>
+      <br/>
+      <UseTab/>
+      <br/>
+      <UseTitle/>
+      <br/>
+      <UseClick/>
     </div>
   );
 }
