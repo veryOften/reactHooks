@@ -7,6 +7,9 @@ import UseConfirm from './utilHooks/useConfirm/useConfirm'
 import UsePreventLeave from './utilHooks/usePreventLeave/usePreventLeave'
 import UseBeforeLeave from './utilHooks/useBeforeLeave/useBeforeLeave'
 import UseFadeIn from './utilHooks/useFadeIn/useFadeIn'
+import UseNetwork from './utilHooks/useNetwork/useNetwork'
+import UseScroll from './utilHooks/useScroll/useScroll'
+import UseNotification from './utilHooks/useNotification/useNotification'
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
       <UseBeforeLeave/>
       <br/>
       <UseFadeIn/>
+      <br/>
+      <UseNetwork/>
+      <br/>
+      <UseScroll/>
+      <br/>
+      <UseNotification/>
     </div>
   );
 }
