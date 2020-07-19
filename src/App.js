@@ -10,6 +10,8 @@ import UseFadeIn from './utilHooks/useFadeIn/useFadeIn'
 import UseNetwork from './utilHooks/useNetwork/useNetwork'
 import UseScroll from './utilHooks/useScroll/useScroll'
 import UseNotification from './utilHooks/useNotification/useNotification'
+import UseFullScreen from './utilHooks/useFullScreen/useFullScreen'
+import UseAxios from './utilHooks/useAxios/useAxios'
 
 function App() {
   return (
@@ -35,6 +37,10 @@ function App() {
       <UseScroll/>
       <br/>
       <UseNotification/>
+      <br/>
+      <UseFullScreen/>
+      <br/>
+      <UseAxios/>
     </div>
   );
 }
